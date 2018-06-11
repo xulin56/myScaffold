@@ -1,5 +1,6 @@
 import React from 'react';
 import {autobind} from 'core-decorators';
+import API from 'js/api';
 import {Tabs,TabsItem} from 'components/Tabs';
 import {HInput} from 'components/Form';
 import './style.scss';
@@ -22,6 +23,11 @@ export default class Demo extends React.Component{
     }
     tab(index) {
 
+    }
+    componentDidMount(){
+        API.UserInfo({},(res)=>{
+            console.log(res)
+        })
     }
     render(){
       const {nav,tabIndex,val} = this.state;

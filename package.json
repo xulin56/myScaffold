@@ -1,7 +1,12 @@
 {
   "name": "react-redux-demo",
   "version": "0.1.0",
-  "private": true,
+  "proxy": {
+    "/app": {
+      "target": "https://crmwww-dev.ga096.cn",
+      "changeOrigin": true
+    }
+  },
   "dependencies": {
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",
@@ -23,6 +28,7 @@
     "chalk": "1.1.3",
     "core-decorators": "^0.20.0",
     "css-loader": "0.28.4",
+    "decimal.js": "^10.0.1",
     "dotenv": "4.0.0",
     "eslint": "3.19.0",
     "eslint-config-react-app": "^1.0.5",
@@ -37,6 +43,7 @@
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "less-loader": "^4.1.0",
+    "md5": "^2.2.1",
     "node-sass": "^4.9.0",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
