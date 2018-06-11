@@ -148,6 +148,8 @@ module.exports = {
           /\.gif$/,
           /\.jpe?g$/,
           /\.png$/,
+          /\.scss$/,
+          /\.less$/
         ],
         loader: require.resolve('file-loader'),
         options: {

@@ -1,16 +1,22 @@
-import {handleActions} from 'redux-actions';
-// console.dir(handleActions);
-export const good = handleActions({
-    REQUEST_GOODS: (state, action) => ({
-        ...state,
-        isFetching: true
-    }),
-    RECEIVE_GOODS: (state, action) => ({
-        ...state,
-        isFetching: false,
-        data: action.payload
-    })
-}, {
-    isFetching: false,
-    data: []
-});
+import { REQUEST_GOODS,RECEIVE_GOODS } from 'store/action/goods'
+
+export const good = (state,action)=>{
+	switch(action.type) {
+		case REQUEST_GOODS :
+			return {
+		        ...state,
+		        isFetching: true
+		    }
+		case RECEIVE_GOODS :
+			return {
+				...state,
+				isFetching : false,
+				goods : action.goods
+			}
+		default :
+			return {
+			    isFetching: false,
+			    goods: []
+			}
+	}
+}
