@@ -1,0 +1,23 @@
+@import "../../../../css/color";
+.flat-select{
+  border-top:1px dashed #ccc;
+  &:first-child{
+    border-top:none;
+  }
+  .flat-select-label,.flat-select-item-container,.flat-select-item{
+    display:inline-block;
+    line-height:32px;
+  }
+  .flat-select-label{
+    color:#A4A6A8;
+    width:70px;
+  }
+  .flat-select-item{
+    color:#424242;
+    margin-right:20px;
+    cursor:pointer;
+    &.active{
+      color:@primary-color;
+    }
+  }
+}
