@@ -4,9 +4,9 @@ import App from 'views/App';
 import {Provider} from 'react-redux';
 import {store} from 'store';
 import {BrowserRouter, Route} from 'react-router-dom';
-import './index.scss';
+import 'style/index.css';
 
-document.getElementsByTagName('html')[0].style.fontSize = window.screen.width / 37.5 +'px';
+window.onresize = document.getElementsByTagName('html')[0].style.fontSize = (document.documentElement.clientWidth / 3.75) +'px';
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
