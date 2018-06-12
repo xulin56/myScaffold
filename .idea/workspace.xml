@@ -2,83 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6367e413-8a13-4eb8-bcc7-fdd2c89f2fb5" name="默认" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Autoplay/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Autoplay/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Confirm/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Confirm/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Dialog/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Dialog/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Filter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Filter/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Footer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Footer/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/FooterWrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/FooterWrap/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Form/HInput/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Form/HInput/input.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Form/HInput/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Form/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HButton/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HButton/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/AdvanceFilter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/AdvanceFilter/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/FastSelect/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/FastSelect/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/FlatSelect/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/FlatSelect/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/SearchBox/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/SearchBox/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/ShortCut/ShortCutRange/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/ShortCut/ShortCutText/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/ShortCut/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/ShortCut/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/reducers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/AdvanceFilter/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/DataTable/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/DataTable/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/Filter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/FilterControl/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/Table/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/Toolbar/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/Toolbar/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/readMe.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HDataTable/reducers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Message/Message.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Message/Message.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Message/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/NavHeader/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/NavHeader/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/ProgressBar/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/ProgressBar/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/UserImg/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/UserImg/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/UserInfor/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/UserInfor/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UserInfor/readme.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs/style.scss" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs/style.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Tabs/readme.md" afterPath="$PROJECT_DIR$/src/components/Tabs/tabs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/views/Demo/style.scss" afterPath="$PROJECT_DIR$/src/views/Demo/style.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Loading/style.scss" afterPath="$PROJECT_DIR$/src/components/Loading/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Loading/style.scss" afterPath="$PROJECT_DIR$/src/components/Loading/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Select/select.less" afterPath="$PROJECT_DIR$/src/components/Select/select.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tabs/Tabs/index.js" afterPath="$PROJECT_DIR$/src/components/Tabs/Tabs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/style/common.less" afterPath="$PROJECT_DIR$/src/components/style/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/style/size.less" afterPath="$PROJECT_DIR$/src/components/style/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/App/index.js" afterPath="$PROJECT_DIR$/src/views/App/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/Demo/index.js" afterPath="$PROJECT_DIR$/src/views/Demo/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Loading/index.js" afterPath="$PROJECT_DIR$/src/components/Loading/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -96,7 +24,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isLocalhost</find>
       <find>dispatch</find>
       <find>actions</find>
       <find>boot</find>
@@ -120,11 +47,13 @@
       <find>BundleAnalyzerPlugin</find>
       <find>onChange</find>
       <find>changeItem</find>
-      <find>react-hot-loader</find>
-      <find>hot-</find>
       <find>con</find>
       <find>console.</find>
       <find>console.warn</find>
+      <find>hot</find>
+      <find>react-hot-loader</find>
+      <find>hot-</find>
+      <find>less</find>
     </findStrings>
     <replaceStrings>
       <replace>//console.</replace>
@@ -144,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/views/goods.js" />
         <option value="$PROJECT_DIR$/src/store/action/goods.js" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/js/api.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js" />
@@ -161,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/views/Demo/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Loading/index.js" />
       </list>
     </option>
   </component>
@@ -220,22 +150,6 @@
             <path>
               <item name="myScaffold" type="b2602c69:ProjectViewProjectNode" />
               <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myScaffold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-dev-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myScaffold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myScaffold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,12 +157,6 @@
               <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myScaffold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myScaffold" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +208,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15539000" />
+    <option name="totallyTimeSpent" value="16725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-297" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -346,22 +254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -456,13 +348,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HDataTable/readMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HDataTable/readMe.txt" />
     <entry file="file://$PROJECT_DIR$/src/js/yydjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -533,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/common.scss" />
     <entry file="file://$PROJECT_DIR$/src/js/api.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,22 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Message/message.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Loading/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Message/message.less" />
     <entry file="file://$PROJECT_DIR$/src/views/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -589,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,14 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Message/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Message/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/Demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -702,30 +551,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="178" column="30" lean-forward="false" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,6 +574,68 @@
         <state relative-caret-position="401">
           <caret line="240" column="5" lean-forward="true" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Loading/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Loading/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Calendar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

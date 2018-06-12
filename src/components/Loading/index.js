@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {autobind} from 'core-decorators';
-import './style.scss';
+import './style.less';
 
 @autobind
 export default class Loading extends React.Component{
