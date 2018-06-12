@@ -21,7 +21,6 @@ export default class Tabs extends React.Component {
         this.setState({
             index : this.props.tabIndex
         });
-        console.log(this.props.children)
     }
     setIndex(index) {
         this.setState({index})
