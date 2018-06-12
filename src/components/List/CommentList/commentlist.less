@@ -1,0 +1,49 @@
+@import '../../style/color.less';
+@import '../../style/size.less';
+
+.comment-list {
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: @list-item-padding;
+    border-top:1px solid @list-item-border;
+    align-items: center;
+    .list-content{
+      display: flex;
+      .list-img {
+        width: @list-img-width;
+        height: @list-img-height;
+        overflow: hidden;
+        border-radius: 50%;
+        img {
+          width:100%;
+        }
+      }
+      .list-infor {
+        flex:1;
+        margin-left: @list-margin-left;
+        .list-description {
+          font-size: @list-description-fontsize;
+          color:@list-description-color;
+        }
+
+      }
+    }
+    .list-operate{
+      display: flex;
+      width:100px;
+      justify-content: flex-end;
+      span {
+        cursor: pointer;
+        padding-left:@list-operate-padding;
+        color:@list-operate-color;
+      }
+    }
+
+  }
+  .loading-more {
+    text-align: center;
+    line-height:36px;
+    cursor:pointer;
+  }
+}

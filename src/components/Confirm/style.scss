@@ -1,4 +1,4 @@
-@import '~css/public.scss';
+@import '../style/color.less';
 
 .Confirm{
     .Dialog{
@@ -26,12 +26,12 @@
                     color: #fff;
                     text-align: center;
                     font-size: .16rem;
-                    background-color: $minor;
+                    background-color: #a8b7c7;
                     &:first-of-type{
                         margin-right: 2%;
                     }
                     &:last-of-type{
-                        background-color: $main;
+                        background-color: #0070d2;
                         margin-left: 2%;
                     }
                 }

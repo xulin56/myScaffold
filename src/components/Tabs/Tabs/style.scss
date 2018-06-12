@@ -1,18 +1,17 @@
-@import '~style/common.scss';
 .tabs {
   .Container{
     border-top: none;
   }
   .tabs-nav {
     display: flex;
-    background-color:$bg;
+    background-color:#fff;
     .icon-A-2 {
       font-size:.16rem;
     }
   }
   li.active {
-    border-bottom:.01rem solid $main;
-    color:$main;
+    border-bottom:.01rem solid #ccc;
+    color:#ccc;
   }
   li {
     flex:1;

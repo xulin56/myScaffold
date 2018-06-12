@@ -6,7 +6,6 @@ import {store} from 'store';
 import createBrowserHistory from 'history/createBrowserHistory';
 import {BrowserRouter, Route} from 'react-router-dom';
 import {AppContainer} from 'react-hot-loader';
-import 'style/index.css';
 
 
 export const browser=createBrowserHistory();
