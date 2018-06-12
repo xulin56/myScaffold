@@ -45,6 +45,7 @@
     "less-loader": "^4.1.0",
     "md5": "^2.2.1",
     "node-sass": "^4.9.0",
+    "nprogress": "^0.2.0",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "2.0.6",
@@ -54,16 +55,19 @@
     "react-dev-utils": "^3.0.2",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.9",
+    "react-hot-loader": "^4.3.1",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
     "redux": "^3.7.1",
     "redux-actions": "^2.2.1",
+    "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^7.0.3",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
     "url-loader": "0.5.9",
     "webpack": "2.6.1",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-dev-server": "2.5.0",
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.3"
@@ -113,5 +117,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
 }

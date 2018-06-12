@@ -5,6 +5,7 @@ import {Provider} from 'react-redux';
 import {store} from 'store';
 import createBrowserHistory from 'history/createBrowserHistory';
 import {BrowserRouter, Route} from 'react-router-dom';
+import {AppContainer} from 'react-hot-loader';
 import 'style/index.css';
 
 
@@ -13,7 +14,9 @@ window.onresize = document.getElementsByTagName('html')[0].style.fontSize = (doc
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
-            <Route history={browser} path='/' component={App}/>
+            <AppContainer>
+                <Route history={browser} path='/' component={App}/>
+            </AppContainer>
         </BrowserRouter>
     </Provider>,
 document.getElementById('root'));

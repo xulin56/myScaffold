@@ -1,9 +1,10 @@
 @import '~style/common.scss';
+
 .demo {
-  color:#f40;
   h3 {
     span {
       font-size:40px;
+      color:$main;
     }
   }
   .iconfont {

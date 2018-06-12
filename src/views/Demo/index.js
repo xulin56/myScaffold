@@ -34,10 +34,10 @@ export default class Demo extends React.Component{
         return(
             <div className="demo">
               <i className='iconfont icon-jiantou'></i>
-              <h3>sldsljds <span>3049034903</span> </h3>
+              <h3>sldsljds <span>青丘之名的灵魂不会永远漂泊</span> </h3>
               <Tabs labels={nav} tabClick={this.tab} tabIndex={tabIndex}>
                 <TabsItem><div>34903493</div></TabsItem>
-                <TabsItem><div>233434</div></TabsItem>
+                <TabsItem><div>沙漠之狐</div></TabsItem>
               </Tabs>
               <HInput type="text" icon='B-3' value={val} changeVal={(name,val)=>this.setState({val})} clearVal={()=>this.setState({val:''})} />
             </div>

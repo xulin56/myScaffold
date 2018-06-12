@@ -1,4 +1,4 @@
-import {ajax,alerts,Type,lStore,customEvent} from './yydjs';
+import {ajax,alerts,Type,lStore} from './yydjs';
 import {store} from 'store';
 import {browser} from 'src';
 import * as action from 'store/action/loading';
@@ -7,42 +7,6 @@ let baseUrl='/app/http/';
 
 //对项目返回参数的处理，对ajax的再次封装
 const ajaxWrap=function(json){
-    console.log(browser)
-    let oldPathname=browser.location.pathname;
-    let noLoginArr=[
-        // {
-        //     path:'/login',//登录
-        // },
-        // {
-        //     path:'/account',//首页
-        //     exact:true,
-        // },
-        // {
-        //     path:'/exponent',//指数
-        //     exact:true,
-        // },
-        // {
-        //     path:'/information',//资讯
-        // },
-        // {
-        //     path:'/popularize',//推广
-        //     exact:true,
-        // },
-        // {
-        //     path:'/data',//数据
-        //     exact:true,
-        // },
-        // {
-        //     path:'/article_info',//展示文章
-        // },
-        // {
-        //     path:'/activity_center',//活动中心
-        // },
-        // {
-        //     path:'/advance',//进阶必备
-        // },
-    ];
-
     ajax({
         url:json.url,
         type:json.type,
@@ -64,47 +28,17 @@ const ajaxWrap=function(json){
             store.dispatch(action.getLoading(false));;
         },
         success:function(data){
-            let pathname=browser.location.pathname;
-
-            if(oldPathname!=pathname)return;//解决卸载组件后调用setState报错
             //只要成功都会走
-            json.finally&&json.finally(data);
             //成功code已经失败code处理
-            if(Type(data)=="object"){
-                if(data.code=='0000'){
+            if(Type(data)==="object"){
+                if(data.code==='0000'){
                     json.success&&json.success(data);
                     return;
-                }
-                else if(data.code=='CRM00001'||data.code=='CRM00002'||data.code=='CRM00003'){
-                    let redirect=true;
-                    for(let value of noLoginArr){
-                        if(value.exact){
-                            if(pathname==value.path){
-                                redirect=false;
-                                break;
-                            }
-                        }else{
-                            if(pathname.match(value.path)){
-                                redirect=false;
-                                break;
-                            }
-                        }
-                    }
-
-                    if(redirect){
-                        setTimeout(()=>{
-                            //customEvent.emit('needLogin');
-                            alerts('请重新登录');
-                            browser.replace('/login');
-                        });
-                    }
-                    return;
-                }else if(data.msg){
-                    alerts(data.msg);
+                }else {
                     json.success&&json.success(data);
+                    alerts("网络异常");
                     return;
                 }
-                alerts("网络异常");
             }
         },
         error:function(error){
