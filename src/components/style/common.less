@@ -1,11 +1,22 @@
-*{
-    margin:0;
-    padding:0;
-    list-style: none;
-    box-sizing: border-box;
-}
-// ul,li,ol,li,table,th,td,p{
-//     margin:0;
-//     padding:0;
-//     list-style: none;
-// }
+/*reset*/
+header,nav,section,footer,article,aside{display:block;box-sizing:border-box;}
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,span,em,i,b,a,table,thead,tbody,tfoot,th,tr,td,form,input,textarea,select,option,pre,hr,label,button{padding:0;margin:0;box-sizing:border-box;}
+li{list-style:none;}
+img{border:none;vertical-align:top;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6,b,label,th{font-weight:normal;}
+a{text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+table{border-collapse:collapse;}
+input,textarea,select,button{outline:none;font-family:arial,helvetica,sans-serif;cursor:pointer;background-color:transparent;color: #4a4a4a;border:0;}
+textarea{resize:none;overflow:auto;}
+input[type="text"],input[type="number"],input[type="password"],input[type="email"],input[type="url"],input[type="submit"]{-webkit-appearance:none;border:1px solid #ddd;}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{-webkit-appearance:none;}
+html{width:100%;font-size:62.5%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body{width:100%;font-size:.14rem;font-family:arial,helvetica,sans-serif;background-color: #fff;color: #999;}
+/*单行与多行省略*/
+.omit{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-break:break-all;}
+*[class*="multiLine"]{display:-webkit-box;overflow:hidden;word-wrap:break-word;-webkit-box-orient:vertical;-webkit-line-clamp:1;}
+.multiLine-2{-webkit-line-clamp:2;}
+.multiLine-3{-webkit-line-clamp:3;}
+.multiLine-4{-webkit-line-clamp:4;}
+.multiLine-5{-webkit-line-clamp:5;}

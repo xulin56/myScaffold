@@ -1,17 +1,17 @@
+@import "../../style/color";
 .tabs {
   .Container{
     border-top: none;
   }
   .tabs-nav {
     display: flex;
-    background-color:#fff;
     .icon-A-2 {
       font-size:.16rem;
     }
   }
   li.active {
-    border-bottom:.01rem solid #ccc;
-    color:#ccc;
+    border-bottom:.01rem solid @tabs-border-color;
+    color:@tabs-active-color;
   }
   li {
     flex:1;

@@ -1,9 +1,9 @@
 import React from 'react';
 import {autobind} from 'core-decorators';
 import API from 'js/api';
+import Select,{InputSelect} from 'components/Select';
 import {Tabs,TabsItem} from 'components/Tabs';
-import {HInput} from 'components/Form';
-import './style.scss';
+import './style.less';
 
 @autobind
 export default class Demo extends React.Component{
@@ -19,7 +19,7 @@ export default class Demo extends React.Component{
         },
       ],
       tabIndex : 0,
-      val : ''
+        demo : '1'
     }
     tab(index) {
 
@@ -29,17 +29,35 @@ export default class Demo extends React.Component{
             console.log(res)
         })
     }
+    change(name,value){
+        this.setState({[name]:value});
+    }
     render(){
-      const {nav,tabIndex,val} = this.state;
+      const {nav,tabIndex,demo} = this.state;
         return(
             <div className="demo">
               <i className='iconfont icon-jiantou'></i>
               <h3>sldsljds <span>青丘之名的灵魂不会永远漂泊</span> </h3>
-              <Tabs labels={nav} tabClick={this.tab} tabIndex={tabIndex}>
-                <TabsItem><div>34903493</div></TabsItem>
-                <TabsItem><div>沙漠之狐</div></TabsItem>
-              </Tabs>
-              <HInput type="text" icon='B-3' value={val} changeVal={(name,val)=>this.setState({val})} clearVal={()=>this.setState({val:''})} />
+                <div><Select
+                    name="demo"
+                    value={demo}
+                    onChange={this.change}
+                    placeholder='请输入选项'
+                    config={{
+                        options:[{
+                            label:'选项A',
+                            value:1
+                        },{
+                            label:'选项B',
+                            value:2
+                        }],
+                    }
+                    }
+                /></div>
+                <Tabs labels={nav} tabClick={this.tab} tabIndex={tabIndex}>
+                    <TabsItem><div>34903493</div></TabsItem>
+                    <TabsItem><div>233434</div></TabsItem>
+                </Tabs>
             </div>
         )
     }
